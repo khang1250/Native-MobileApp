@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Native App</string>
+    <string name="notification_01">Test</string>
+    <string name="tv_propname">Property\'s Name</string>
+    <string name="tv_propaddress">Property\'s Address</string>
+    <string name="tv_proptype">Property\'s Type</string>
+    <string name="tv_bedrooms">Bedrooms</string>
+    <string name="tv_dateadd">Added Date</string>
+    <string name="tv_price">Monthly Price</string>
+    <string name="tv_furtype">Type of Furniture</string>
+    <string name="tv_note">Note</string>
+    <string name="tv_rpname">Reporter\'s Name</string>
+    <string name="btn_create">Create</string>
+    <string name="btn_back">Back</string>
+</resources>

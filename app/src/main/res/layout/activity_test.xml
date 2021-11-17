@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity">
+
+    <TextView
+        android:id="@+id/lblPropName_cfm"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/tv_propname"
+        app:layout_constraintBottom_toBottomOf="@+id/tvPropName_cfm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvPropName_cfm" />
+
+    <TextView
+        android:id="@+id/tvPropName_cfm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/lblPropName_cfm"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPropAddress_cfm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lblPassword_cfm"
+        app:layout_constraintTop_toBottomOf="@+id/tvPropName_cfm" />
+
+    <TextView
+        android:id="@+id/lblPassword_cfm"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/tv_propaddress"
+        app:layout_constraintBottom_toBottomOf="@+id/tvPropAddress_cfm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvPropAddress_cfm" />
+
+    <TextView
+        android:id="@+id/lblDateAdd_cfm"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/tv_dateadd"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDateAdd_cfm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvDateAdd_cfm" />
+
+    <TextView
+        android:id="@+id/lvlFurType_cfm"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/tv_furtype"
+        app:layout_constraintBottom_toBottomOf="@+id/tvFurType_cfm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvFurType_cfm" />
+
+    <TextView
+        android:id="@+id/lblNote_cfm"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/tv_note"
+        app:layout_constraintBottom_toBottomOf="@+id/tvNote_cfm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvNote_cfm" />
+
+    <TextView
+        android:id="@+id/lblPrice_cfm"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/tv_price"
+        app:layout_constraintBottom_toBottomOf="@+id/tvPrice_cfm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvPrice_cfm" />
+
+    <TextView
+        android:id="@+id/lblRpName_cfm"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/tv_rpname"
+        app:layout_constraintBottom_toBottomOf="@+id/tvRpName_cfm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvRpName_cfm" />
+
+    <TextView
+        android:id="@+id/lblPropType_cfm"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/tv_proptype"
+        app:layout_constraintBottom_toBottomOf="@+id/tvPropType_cfm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvPropType_cfm" />
+
+    <TextView
+        android:id="@+id/lblBedrooms_cfm"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/tv_bedrooms"
+        app:layout_constraintBottom_toBottomOf="@+id/tvBedrooms_cfm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvBedrooms_cfm" />
+
+    <TextView
+        android:id="@+id/tvPropType_cfm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lblPropType_cfm"
+        app:layout_constraintTop_toBottomOf="@+id/tvPropAddress_cfm" />
+
+    <TextView
+        android:id="@+id/tvBedrooms_cfm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lblBedrooms_cfm"
+        app:layout_constraintTop_toBottomOf="@+id/tvPropType_cfm" />
+
+    <TextView
+        android:id="@+id/tvDateAdd_cfm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lblDateAdd_cfm"
+        app:layout_constraintTop_toBottomOf="@+id/tvBedrooms_cfm" />
+
+    <TextView
+        android:id="@+id/tvPrice_cfm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lblPrice_cfm"
+        app:layout_constraintTop_toBottomOf="@+id/tvDateAdd_cfm" />
+
+    <TextView
+        android:id="@+id/tvFurType_cfm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lvlFurType_cfm"
+        app:layout_constraintTop_toBottomOf="@+id/tvPrice_cfm" />
+
+    <TextView
+        android:id="@+id/tvNote_cfm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lblNote_cfm"
+        app:layout_constraintTop_toBottomOf="@+id/tvFurType_cfm" />
+
+    <TextView
+        android:id="@+id/tvRpName_cfm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lblRpName_cfm"
+        app:layout_constraintTop_toBottomOf="@+id/tvNote_cfm" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
